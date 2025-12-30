@@ -1,5 +1,5 @@
 /*
- * 🏗 DATABASE SCHEMA & SEED DATA
+ *  DATABASE SCHEMA & SEED DATA
  * Context: SaaS Platform (Subscription Model)
  * Dialect: PostgreSQL
  */
@@ -44,7 +44,7 @@ CREATE INDEX idx_payments_date ON payments (payment_date);
 CREATE INDEX idx_logs_user_time ON login_logs (user_id, login_time);
 
 /*
- * 🌱 SEED DATA (Mocking a scenario)
+ *  SEED DATA (Mocking a scenario)
  */
 
 -- Insert some users
